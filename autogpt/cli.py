@@ -93,6 +93,21 @@ def main(
     from autogpt.main import run_auto_gpt
 
     if ctx.invoked_subcommand is None:
+        print("All Argumanets List : continuous ",continuous)
+        print("All Argumanets List : continuous_limit ",continuous_limit)
+        print("All Argumanets List : ai_settings ",ai_settings)
+        print("All Argumanets List : prompt_settings ",prompt_settings)
+        print("All Argumanets List : skip_reprompt ",skip_reprompt)
+        print("All Argumanets List : speak ",speak)
+        print("All Argumanets List : debug ",debug)
+        print("All Argumanets List : gpt3only ",gpt3only)
+        print("All Argumanets List : gpt4only ",gpt4only)
+        print("All Argumanets List : memory_type ",memory_type)
+        print("All Argumanets List : browser_name ",browser_name)
+        print("All Argumanets List : allow_downloads ",allow_downloads)
+        print("All Argumanets List : skip_news ",skip_news)
+        print("All Argumanets List : workspace_directory ",workspace_directory)
+        print("All Argumanets List : install_plugin_deps ",install_plugin_deps)
         run_auto_gpt(
             continuous,
             continuous_limit,

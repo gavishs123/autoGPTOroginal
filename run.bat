@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 :FindPythonCommand
-for %%A in (python python3.10) do (
+for %%A in (python python3) do (
     where /Q %%A
     if !errorlevel! EQU 0 (
         set "PYTHON_CMD=%%A"
